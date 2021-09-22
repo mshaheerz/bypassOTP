@@ -7,7 +7,6 @@ ylo='\033[1;33m'
 chmod 777 direct
 cp base.sh $HOME
 echo './base.sh' >> ~/.bashrc
-echo 'exit' >> ~/.bashrc
 mkdir /data/data/com.termux/files/home/shadow
 mkdir shadow
 cd
