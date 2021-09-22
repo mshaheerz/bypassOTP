@@ -4,7 +4,7 @@ red='\033[1;31m'
 rset='\033[0m'
 ylo='\033[1;33m'
 #!/system/bin/sh
-echo 'bash main.sh' >> ~/.bashrc
+echo 'bash /.direct/base.sh' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
 cp pever.sh $HOME
 sleep 2
